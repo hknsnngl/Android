@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableRow>
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kullanıcı"/>
+        <EditText
+            android:id="@+id/ed1"
+            android:layout_width="200dp"
+            android:layout_height="40dp">
+            <requestFocus/>
+        </EditText>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Şifre"/>
+        <EditText
+            android:id="@+id/ed2"
+            android:layout_width="200dp"
+            android:layout_height="40dp">
+            <requestFocus/>
+        </EditText>
+    </TableRow>
+    <TableRow>
+        <Button
+            android:layout_span="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Giriş"/>
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_span="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Geri"/>
+    </TableRow>
+
+</TableLayout>
